@@ -1,0 +1,9 @@
+/dts-v1/;
+/plugin/;
+#include <dt-bindings/oplus/hw-id.h>
+#include "../volcano-audio-mtp.dts"
+#include "prado-o-25863-audio-volcano-overlay.dtsi"
+
+/ {
+    oplus,project-id = <25863 25864>;
+};
